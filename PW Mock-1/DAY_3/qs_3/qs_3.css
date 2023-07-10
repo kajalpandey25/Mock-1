@@ -1,0 +1,16 @@
+.skeleton {
+    background-color: #f5f5f5;
+    animation: loading 1s infinite ease-in-out;
+  }
+
+  @keyframes loading {
+    0% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0.6;
+    }
+  }

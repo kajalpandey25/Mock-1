@@ -1,0 +1,23 @@
+<!-- Create a custom modal window using HTML, CSS, and JavaScript. On clicking a button the modal window should appear and the user can click outside the modal window to close the modal along with a close button which is inside the modal. Also when the modal is open the window should not be scrollable.
+ -->
+
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Custom Modal Window</title>
+  <script src="qs_6.js"></script>
+<link rel="stylesheet" href="qs_6.css">
+</head>
+<body>
+  <h1>Custom Modal Window</h1>
+  <button class="button" onclick="openModal()">Open Modal</button>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeModal()">&times;</span>
+      <h2>Modal Content</h2>
+      <p>This is the content of the modal window.</p>
+    </div>
+  </div>
+</body>
+</html>
